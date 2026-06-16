@@ -12,12 +12,13 @@ export default function FishCard({ fish }: FishCardProps) {
       href={`/fishdex/${fish.id}`}
       className="group overflow-hidden rounded-3xl border bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
     >
-      <div className="relative h-48 w-full bg-gray-100">
+      <div className="flex h-56 items-center justify-center bg-gray-50 p-4">
         <Image
           src={fish.imageUrl}
           alt={fish.commonName}
-          fill
-          className="object-cover transition group-hover:scale-105"
+          width={400}
+          height={200}
+          className="max-h-44 w-auto object-contain transition group-hover:scale-105"
         />
       </div>
 
