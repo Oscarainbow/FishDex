@@ -1,0 +1,16 @@
+# AI
+ai-service/venv/
+ai-service/dataset/
+ai-service/uploads/
+
+# Python
+__pycache__/
+*.pyc
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+
+# Java
+backend/target/
+
